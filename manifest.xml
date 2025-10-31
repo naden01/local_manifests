@@ -25,6 +25,9 @@
   <!-- kernel-4.9 -->
   <project path="kernel/xiaomi/msm8953"        name="kernel_msm-4.9"    groups="device" remote="alice" revision="mithorium/a15/master"/>
 
+  <!-- kernel-4.9-oxygen -->
+  <project path="kernel/xiaomi/oxygen"        name="kernel_msm-4.9"    groups="device" remote="alice" revision="oxygen/a13/master"/>
+
   <!-- kernel-4.9-module -->
   <project path="kernel/xiaomi/msm8953/techpack/audio-legacy"        name="kernel_techpack_audio-legacy"    groups="device" remote="alice" revision="audio-4.9"/>
   <project path="kernel/xiaomi/msm8953/techpack/xiaomi-titanium"        name="techpack_xiaomi-titanium"    groups="device" remote="alice" revision="ts/test"/>
