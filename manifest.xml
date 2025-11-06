@@ -31,7 +31,7 @@
   <project path="vendor/xiaomi/oxygen"        name="proprietary_vendor_xiaomi_oxygen"    groups="device" remote="alice" revision="lineage-23.0" />
 
   <!-- kernel-vince-ysl-k4.9 -->
-  <project path="kernel/xiaomi/msm8953"        name="kernel_msm-4.9"    groups="device" remote="alice" revision="mithorium/a15/master"/>
+  <project path="kernel/xiaomi/msm8953"        name="kernel_msm-4.9"    groups="device" remote="alice" revision="old/backup"/>
 
   <!-- kernel-4.9-oxygen -->
   <project path="kernel/xiaomi/oxygen"        name="kernel_msm-4.9"    groups="device" remote="alice" revision="oxygen/a13/master"/>
@@ -44,7 +44,7 @@
 
   <!-- kernel-4.9-module -->
   <project path="kernel/xiaomi/msm8953/techpack/audio-legacy"        name="kernel_techpack_audio-legacy"    groups="device" remote="alice" revision="audio-4.9"/>
-  <project path="kernel/xiaomi/msm8953/techpack/xiaomi-titanium"        name="techpack_xiaomi-titanium"    groups="device" remote="alice" revision="ts/test"/>
+  <project path="kernel/xiaomi/msm8953/techpack/xiaomi-titanium"        name="techpack_xiaomi-titanium"    groups="device" remote="alice" revision="bak"/>
   <project path="kernel/xiaomi/msm8953/drivers/staging/prima"        name="vendor_qcom_opensource_wlan_prima"    groups="device" remote="mi-thorium" revision="wlan/LA.UM.9.6.4/mithorium/master"/>
 
   <!-- kernel-4.19-module -->
