@@ -38,7 +38,7 @@
   <project path="device/xiaomi/vince/camera"        name="device_xiaomi-msm8953_camera"        groups="device" remote="alice" revision="k4.9" />
 
   <!-- extra -->
-  <project path="vendor/afterlife-priv" name="vendor_extra" remote="alice" revision="14" />
+  <project path="vendor/afterlife-priv" name="vendor_extra" remote="alice" revision="afl" />
 
   <!-- hardware/xiaomi -->
   <project path="hardware/xiaomi" name="hardware_xiaomi" remote="alice" revision="lineage-22.2" />
