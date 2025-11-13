@@ -6,7 +6,7 @@
            revision="a15_qpr2/master" />
 
   <remote name="alice"
-            fetch="https://github.com/SnowAlice-Miscellaneous"
+            fetch="https://github.com/AmiaAlt-Miscellaneous"
             revision="lineage-20.0" />
 
   <remote name="needAlt"
