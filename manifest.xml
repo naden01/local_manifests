@@ -55,7 +55,7 @@
     <linkfile src="guard-qcom-qssi-display.mk"              dest="hardware/mithorium/display/lineage-21.0-caf-msm8953/Android.mk" />
   </project>
 
- <!-- Hardware - display-commonsys-intf -->lineage-23.0
+ <!-- Hardware - display-commonsys-intf -->
   <project path="hardware/mithorium/display/LA.UM.9.6.4.r2-04300-89xx.QSSI13r2.0/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,pdk-qcom" revision="lineage-23.0"/>
   <project path="hardware/mithorium/display/lineage-21.0-caf-msm8953/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,pdk-qcom" revision="lineage-23.0"/>
 
