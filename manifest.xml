@@ -30,11 +30,18 @@
   <project path="device/xiaomi/oxygen"        name="android_device_xiaomi_oxygen"        groups="device" remote="alice" revision="lineage-22.2"/>
   <project path="vendor/xiaomi/oxygen"        name="proprietary_vendor_xiaomi_oxygen"    groups="device" remote="alice" revision="lineage-23.0" />
 
+  <!-- onc -->
+  <project path="device/xiaomi/onc"        name="android_device_xiaomi_onc"        groups="device" remote="alice" revision="lineage-22.2"/>
+  <project path="vendor/xiaomi/onc"        name="proprietary_vendor_xiaomi_onc"    groups="device" remote="alice" revision="lineage-22.2" />
+
   <!-- kernel-vince-ysl-k4.9 -->
   <project path="kernel/xiaomi/msm8953"        name="kernel_msm-4.9"    groups="device" remote="alice" revision="old/backup"/>
 
   <!-- kernel-4.9-oxygen -->
   <project path="kernel/xiaomi/oxygen"        name="kernel_msm-4.9"    groups="device" remote="alice" revision="oxygen/a13/master"/>
+
+  <!-- kernel-4.9-onc -->
+  <project path="kernel/xiaomi/onc"        name="kernel_msm-4.9"    groups="device" remote="alice" revision="onc/lineage-20"/>
 
   <!-- kernel-4.19 -->
   <project path="kernel/xiaomi/msm8953_4_19"        name="msm-4.19"    groups="device" remote="needAlt" revision="16/ysl"/>
