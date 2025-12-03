@@ -12,7 +12,11 @@
   <remote name="needAlt"
             fetch="https://github.com/needAlt"
             revision="lineage-20.0" />
-
+  
+    <remote name="lineage"
+            fetch="https://github.com/LineageOS"
+            revision="lineage-20.0" />
+  
   <!-- Common -->
   <project path="device/xiaomi/mithorium-common" name="android_device_xiaomi_mithorium-common"     groups="device" remote="alice" revision="lineage-22.2" />
   <project path="vendor/xiaomi/mithorium-common" name="proprietary_vendor_xiaomi_mithorium-common" groups="device" remote="alice" revision="lineage-22.2" />
@@ -41,7 +45,7 @@
   <project path="kernel/xiaomi/oxygen"        name="kernel_msm-4.9"    groups="device" remote="alice" revision="oxygen/a13/master"/>
 
   <!-- kernel-4.9-onc -->
-  <project path="kernel/xiaomi/onc"        name="kernel_msm-4.9"    groups="device" remote="alice" revision="onc/lineage-20"/>
+  <project path="kernel/xiaomi/onc"        name="android_kernel_xiaomi_onclite"    groups="device" remote="lineage" revision="lineage-22.2"/>
 
   <!-- kernel-4.19 -->
   <project path="kernel/xiaomi/msm8953_4_19"        name="msm-4.19"    groups="device" remote="needAlt" revision="16/ysl"/>
